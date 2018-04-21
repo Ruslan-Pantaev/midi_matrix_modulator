@@ -1,4 +1,8 @@
 # midi_matrix_modulator
+*USAGE*
+  * Python 2.7 environment
+  * sudo pip install music21
+
 *2018-4-21*
   * Python 2.7
   * Principles of discrete math* applied to music in midi format
