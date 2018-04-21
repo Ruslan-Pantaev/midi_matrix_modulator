@@ -1,2 +1,4 @@
 # midi_matrix_modulator
-Principles of discrete math applied to music in midi format.'s matrix transposition, addition, subtraction, multiplication (and other fun stuff to build upon).
+#2018-4-21#
+Principles of discrete math applied to music in midi format.
+Matrix transposition, addition, subtraction, multiplication (and other fun stuff to build upon).
