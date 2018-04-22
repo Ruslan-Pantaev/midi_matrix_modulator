@@ -5,7 +5,7 @@
   * python music_matrix_mod.py 
 
 *2018-4-21*
-  * Principles of discrete math* applied to music in midi format
+  * Principles of discrete math applied to music in midi format
   * Matrix transposition, addition, subtraction, multiplication (and other fun stuff to build upon)
   * Incorporates music21 lib (which means I should port over to py3 eventually)
   * TODO complete multiplication function
