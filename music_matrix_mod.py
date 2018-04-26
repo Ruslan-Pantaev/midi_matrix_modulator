@@ -175,12 +175,12 @@ def main():
     transposed_arr.append(transpose(master_arr[i]))
 
   st = stream.Stream() # resetting Stream
-  # d = duration.quarterConversion(2.0/3.0).tuplet
+  # d not in use
   d = duration.Duration(8.0 / 6.0) # 8 quarterNotes divided by 6 (halfNote triplets)
   for i in range(len(transposed_arr)):
     for j in range(len(transposed_arr[i])):
-      # ch = chord.Chord(transposed_arr[i][j]).closedPosition()
-      st.append(chord.Chord(transposed_arr[i][j], duration=d).closedPosition())
+      # st.append(chord.Chord(transposed_arr[i][j], duration=d).closedPosition())
+      st.append(chord.Chord(transposed_arr[i][j], type='half'))
   fp = st.write('midi', fp='./test_transposed.mid')
 
   print_notes(transposed_arr)

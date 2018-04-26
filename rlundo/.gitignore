@@ -1,0 +1,20 @@
+# for not you're supposed to link to the right Makefile
+Makefile
+
+*.dSYM
+*.o
+*.so
+*.so.*
+*.dylib
+*.out
+*.tar.gz
+
+rlundo
+rlundolibpath
+testrlundoable
+rlundopatched
+
+readline-6.3
+modified-readline-6.3
+*.egg-info
+*.pyc
